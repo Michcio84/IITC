@@ -3,6 +3,7 @@
 // @name           IITC plugin: S2 Cell Drawer
 // @category       Layer
 // @version        0.0.4.20181209.010307
+// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // downloadURL    https://github.com/Wintervorst/iitc/raw/master/plugins/s2celldrawer/s2celldrawer.user.js
 // @description    [iitc-20181209.010307] Allows drawing of s2cells and creates a layerselected hook
 // @include        https://intel.ingress.com/*
