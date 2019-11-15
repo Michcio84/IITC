@@ -30,7 +30,7 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
   window.plugin.occupied17cells = function() {};      
   window.plugin.occupied17cells.cellLevel = 17;  
   window.plugin.occupied17cells.layerlist = {};	
-  window.plugin.occupied17cells.cellOptionsOccupied = {fill: true, color: 'black', fillColor:'purple', opacity: 1, weight: 1, fillOpacity:0.30, clickable: false, interactive: false };
+  window.plugin.occupied17cells.cellOptionsOccupied = {fill: true, color: 'black', fillColor:'purple', opacity: 1, weight: 1, fillOpacity:0.15, clickable: false, interactive: false };
   window.plugin.occupied17cells.cellOptionsEmpty = {fill: false, color: 'orange', opacity: 0.5, weight: 2, clickable: false, interactive: false };
   
   window.plugin.occupied17cells.update = function() {		    
