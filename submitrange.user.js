@@ -65,7 +65,7 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
     var latlng = new L.LatLng(coo.lat, coo.lng);
 
     // Specify the no submit circle options
-    var circleOptions = {color:'black', opacity:1, fillColor:'purple', fillOpacity:0.40, weight:1, clickable:false, interactive:false};
+    var circleOptions = {color:'black', opacity:1, fillColor:'purple', fillOpacity:0.20, weight:1, clickable:false, interactive:false};
     var range = 20; // Hardcoded to 20m, the universal too close for new submit range of a portal
 
     // Create the circle object with specified options
